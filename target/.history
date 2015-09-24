@@ -1,0 +1,25 @@
+reload
+~reStart
+reload
+~reStart
+reload
+~reStart
+;set scalacOptions ++= Seq("-feature", "-deprecated") ;reload
+~reStart
+reload
+compile
+reload
+compile
+reload
+compile
+reload
+compile
+reload
+compile
+clean
+compile
+reload
+compile
+reload
+compile
+~reStart

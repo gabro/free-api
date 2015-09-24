@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="free-consultations_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20150924162530"/>
+	<dependencies>
+		<module organisation="org.spire-math" name="cats_2.11">
+			<revision name="0.2.0" status="release" pubdate="20150924114914" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/non/cats" extra-info.apiURL="https://non.github.io/cats/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4417" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/cats_2.11/0.2.0/cats_2.11-0.2.0.pom"/>
+				<caller organisation="default" name="free-consultations_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cats_2.11" type="jar" ext="jar" status="no" details="" size="301" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats_2.11/jars/cats_2.11-0.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/cats_2.11/0.2.0/cats_2.11-0.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="cats-state_2.11">
+			<revision name="0.2.0" status="release" pubdate="20150924114920" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/non/cats" extra-info.apiURL="https://non.github.io/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4132" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-state_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/cats-state_2.11/0.2.0/cats-state_2.11-0.2.0.pom"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="cats-state_2.11" type="jar" ext="jar" status="no" details="" size="35196" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-state_2.11/jars/cats-state_2.11-0.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/cats-state_2.11/0.2.0/cats-state_2.11-0.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="cats-free_2.11">
+			<revision name="0.2.0" status="release" pubdate="20150924114920" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/non/cats" extra-info.apiURL="https://non.github.io/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3982" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-free_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/cats-free_2.11/0.2.0/cats-free_2.11-0.2.0.pom"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="cats-free_2.11" type="jar" ext="jar" status="no" details="" size="68896" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-free_2.11/jars/cats-free_2.11-0.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/cats-free_2.11/0.2.0/cats-free_2.11-0.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="cats-laws_2.11">
+			<revision name="0.2.0" status="release" pubdate="20150924114918" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/non/cats" extra-info.apiURL="https://non.github.io/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="4426" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-laws_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/cats-laws_2.11/0.2.0/cats-laws_2.11-0.2.0.pom"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="cats-laws_2.11" type="jar" ext="jar" status="no" details="" size="709284" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-laws_2.11/jars/cats-laws_2.11-0.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/cats-laws_2.11/0.2.0/cats-laws_2.11-0.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="algebra-laws_2.11">
+			<revision name="0.3.1" status="release" pubdate="20150924114919" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" extra-info.apiURL="https://non.github.io/algebra/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3635" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra-laws_2.11/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/algebra-laws_2.11/0.3.1/algebra-laws_2.11-0.3.1.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="algebra-laws_2.11" type="jar" ext="jar" status="no" details="" size="353967" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra-laws_2.11/jars/algebra-laws_2.11-0.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/algebra-laws_2.11/0.3.1/algebra-laws_2.11-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="algebra-macros_2.11">
+			<revision name="0.3.1" status="release" pubdate="20150924114919" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" extra-info.apiURL="https://non.github.io/algebra/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2926" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra-macros_2.11/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/algebra-macros_2.11/0.3.1/algebra-macros_2.11-0.3.1.pom"/>
+				<caller organisation="org.spire-math" name="algebra-laws_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="algebra-macros_2.11" type="jar" ext="jar" status="no" details="" size="8099" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra-macros_2.11/jars/algebra-macros_2.11-0.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/algebra-macros_2.11/0.3.1/algebra-macros_2.11-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="discipline_2.11">
+			<revision name="0.4" status="release" pubdate="20150721220309" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/discipline" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3190" time="0" location="/Users/gabro/.ivy2/cache/org.typelevel/discipline_2.11/ivy-0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="algebra-laws_2.11" conf="compile, runtime" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="0.3.1"/>
+				<artifacts>
+					<artifact name="discipline_2.11" type="jar" ext="jar" status="no" details="" size="40986" time="0" location="/Users/gabro/.ivy2/cache/org.typelevel/discipline_2.11/jars/discipline_2.11-0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalacheck" name="scalacheck_2.11">
+			<revision name="1.12.4" status="release" pubdate="20150924114918" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalacheck.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2797" time="0" location="/Users/gabro/.ivy2/cache/org.scalacheck/scalacheck_2.11/ivy-1.12.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.4/scalacheck_2.11-1.12.4.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="1.12.4" rev-constraint-default="1.12.4" rev-constraint-dynamic="1.12.4" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="algebra-laws_2.11" conf="compile, runtime" rev="1.12.4" rev-constraint-default="1.12.4" rev-constraint-dynamic="1.12.4" callerrev="0.3.1"/>
+				<caller organisation="org.typelevel" name="discipline_2.11" conf="compile, runtime" rev="1.12.4" rev-constraint-default="1.12.4" rev-constraint-dynamic="1.12.4" callerrev="0.4"/>
+				<artifacts>
+					<artifact name="scalacheck_2.11" type="jar" ext="jar" status="no" details="" size="1768708" time="0" location="/Users/gabro/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.4.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.4/scalacheck_2.11-1.12.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="test-interface">
+			<revision name="1.0" status="release" pubdate="20150819112021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2589" time="0" location="/Users/gabro/.ivy2/cache/org.scala-sbt/test-interface/ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
+				<caller organisation="org.scalacheck" name="scalacheck_2.11" conf="compile, runtime" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.12.4"/>
+				<artifacts>
+					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="14755" time="0" location="/Users/gabro/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="cats-core_2.11">
+			<revision name="0.2.0" status="release" pubdate="20150924114917" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/non/cats" extra-info.apiURL="https://non.github.io/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3835" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-core_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/cats-core_2.11/0.2.0/cats-core_2.11-0.2.0.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="cats-core_2.11" type="jar" ext="jar" status="no" details="" size="2091648" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-core_2.11/jars/cats-core_2.11-0.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/cats-core_2.11/0.2.0/cats-core_2.11-0.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="cats-macros_2.11">
+			<revision name="0.2.0" status="release" pubdate="20150924114915" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/non/cats" extra-info.apiURL="https://non.github.io/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3692" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-macros_2.11/ivy-0.2.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/cats-macros_2.11/0.2.0/cats-macros_2.11-0.2.0.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-core_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.2.0" rev-constraint-default="0.2.0" rev-constraint-dynamic="0.2.0" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="cats-macros_2.11" type="jar" ext="jar" status="no" details="" size="5575" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/cats-macros_2.11/jars/cats-macros_2.11-0.2.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/cats-macros_2.11/0.2.0/cats-macros_2.11-0.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.11">
+			<revision name="0.4.1" status="release" pubdate="20150721164146" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2937" time="0" location="/Users/gabro/.ivy2/cache/org.typelevel/machinist_2.11/ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-core_2.11" conf="compile, runtime" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-macros_2.11" conf="compile, runtime" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="machinist_2.11" type="jar" ext="jar" status="no" details="" size="32684" time="0" location="/Users/gabro/.ivy2/cache/org.typelevel/machinist_2.11/jars/machinist_2.11-0.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="algebra-std_2.11">
+			<revision name="0.3.1" status="release" pubdate="20150924114916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" extra-info.apiURL="https://non.github.io/algebra/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2911" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra-std_2.11/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/algebra-std_2.11/0.3.1/algebra-std_2.11-0.3.1.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="algebra-laws_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-core_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-macros_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="algebra-std_2.11" type="jar" ext="jar" status="no" details="" size="341631" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra-std_2.11/jars/algebra-std_2.11-0.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/algebra-std_2.11/0.3.1/algebra-std_2.11-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="algebra_2.11">
+			<revision name="0.3.1" status="release" pubdate="20150924114916" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spire-math.org" extra-info.apiURL="https://non.github.io/algebra/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2759" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra_2.11/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/spire-math/algebra_2.11/0.3.1/algebra_2.11-0.3.1.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="algebra-laws_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-core_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="algebra-std_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.3.1"/>
+				<caller organisation="org.spire-math" name="cats-macros_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="algebra_2.11" type="jar" ext="jar" status="no" details="" size="3158101" time="0" location="/Users/gabro/.ivy2/cache/org.spire-math/algebra_2.11/jars/algebra_2.11-0.3.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/spire-math/algebra_2.11/0.3.1/algebra_2.11-0.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.mpilquist" name="simulacrum_2.11">
+			<revision name="0.4.0" status="release" pubdate="20150924114915" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/mpilquist/simulacrum" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Three-clause BSD-style" url="https://github.com/mpilquist/simulacrum/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2838" time="0" location="/Users/gabro/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/ivy-0.4.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.4.0/simulacrum_2.11-0.4.0.pom"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-core_2.11" conf="compile, runtime" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-macros_2.11" conf="compile, runtime" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="simulacrum_2.11" type="jar" ext="jar" status="no" details="" size="166684" time="0" location="/Users/gabro/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/jars/simulacrum_2.11-0.4.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.4.0/simulacrum_2.11-0.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.7" status="release" pubdate="20150622221746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2832" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.7/scala-reflect-2.11.7.pom"/>
+				<caller organisation="org.typelevel" name="machinist_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.4.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4576443" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150622221702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2666" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="org.spire-math" name="algebra-laws_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.3.1"/>
+				<caller organisation="org.spire-math" name="algebra-std_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.3.1"/>
+				<caller organisation="org.scalacheck" name="scalacheck_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.12.4"/>
+				<caller organisation="org.spire-math" name="algebra-macros_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.3.1"/>
+				<caller organisation="org.typelevel" name="machinist_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.4.1"/>
+				<caller organisation="org.spire-math" name="cats-macros_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="algebra_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.3.1"/>
+				<caller organisation="default" name="free-consultations_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats-core_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.11.7"/>
+				<caller organisation="com.github.mpilquist" name="simulacrum_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.4.0"/>
+				<caller organisation="org.typelevel" name="discipline_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.4"/>
+				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<caller organisation="org.spire-math" name="cats_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.11.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="org.scalacheck" name="scalacheck_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.12.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
