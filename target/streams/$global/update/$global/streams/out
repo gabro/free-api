@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d8d4956[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cb6e6e4[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -372,6 +372,80 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.spire-math#cats_2.11;0.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.11;7.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-concurrent_2.11;7.1.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.11;7.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-concurrent_2.11;7.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.11;7.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.11;7.1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.11;7.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.11;7.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.11;7.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.11;7.1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.11;7.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.11;7.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [compile][0m
@@ -642,6 +716,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.spire-math#cats_2.11;0.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [test][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [runtime][0m
@@ -913,6 +1037,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.spire-math#cats_2.11;0.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
@@ -1187,6 +1361,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.spire-math#cats_2.11;0.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
@@ -1460,6 +1684,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.spire-math#cats_2.11;0.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [test-internal][0m
@@ -1733,6 +2007,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.spire-math#cats_2.11;0.2.0->org.typelevel#machinist_2.11;0.4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.spire-math#cats_2.11;0.2.0 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.11;7.1.4->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.11;7.1.4->org.scalaz#scalaz-effect_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.11;7.1.4->org.scalaz#scalaz-core_2.11;7.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scalaz#scalaz-concurrent_2.11;7.1.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [optional][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations_2.11;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
@@ -1764,35 +2088,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-xml_2.11;1.0.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-xml_2.11;1.0.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->master(*)][0m
-[0m[[0minfo[0m] [0mResolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4[0m
-[0m[[0mdebug[0m] [0m	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang#scala-reflect;2.11.7 [runtime->runtime(*)][0m
@@ -1801,8 +2107,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.11.7->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-xml_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4->org.scala-lang#scala-library;2.11.7 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.11.7 [scala-tool->optional(default)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.11.7->jline#jline;2.12.1 [optional->master(*)][0m
@@ -1820,6 +2132,14 @@
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.11.7!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#cats_2.11;0.2.0!cats_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/gabro/.ivy2/local/org.scalaz/scalaz-concurrent_2.11/7.1.4/bundles/scalaz-concurrent_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-concurrent_2.11;7.1.4!scalaz-concurrent_2.11.jar(bundle) (435ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#cats-macros_2.11;0.2.0!cats-macros_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#cats-core_2.11;0.2.0!cats-core_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#cats-laws_2.11;0.2.0!cats-laws_2.11.jar[0m
@@ -1835,11 +2155,20 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#algebra-laws_2.11;0.3.1!algebra-laws_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.spire-math#algebra-macros_2.11;0.3.1!algebra-macros_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.11;7.1.4!scalaz-core_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/gabro/.ivy2/local/org.scalaz/scalaz-effect_2.11/7.1.4/bundles/scalaz-effect_2.11.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.11;7.1.4!scalaz-effect_2.11.jar(bundle) (499ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 412ms :: artifacts dl 16ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 216ms :: artifacts dl 1021ms[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations_2.11;0.1-SNAPSHOT compile produced in /Users/gabro/buildo/experiments/free-consultations/target/resolution-cache/reports/default-free-consultations_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations_2.11;0.1-SNAPSHOT runtime produced in /Users/gabro/buildo/experiments/free-consultations/target/resolution-cache/reports/default-free-consultations_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations_2.11;0.1-SNAPSHOT test produced in /Users/gabro/buildo/experiments/free-consultations/target/resolution-cache/reports/default-free-consultations_2.11-test.xml[0m
@@ -1853,5 +2182,5 @@
 [0m[[0mdebug[0m] [0m	report for default#free-consultations_2.11;0.1-SNAPSHOT docs produced in /Users/gabro/buildo/experiments/free-consultations/target/resolution-cache/reports/default-free-consultations_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations_2.11;0.1-SNAPSHOT pom produced in /Users/gabro/buildo/experiments/free-consultations/target/resolution-cache/reports/default-free-consultations_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations_2.11;0.1-SNAPSHOT scala-tool produced in /Users/gabro/buildo/experiments/free-consultations/target/resolution-cache/reports/default-free-consultations_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (412ms resolve - 16ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (216ms resolve - 1021ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

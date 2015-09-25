@@ -4,7 +4,7 @@
 		module="free-consultations_2.11"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150924162530"
+		publication="20150925125102"
 	>
 		<description>
 		free-consultations
@@ -35,5 +35,6 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="org.spire-math" name="cats_2.11" rev="0.2.0" conf="compile->default(compile)"/>
+		<dependency org="org.scalaz" name="scalaz-concurrent_2.11" rev="7.1.4" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

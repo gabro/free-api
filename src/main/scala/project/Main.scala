@@ -5,19 +5,36 @@ import lib.Implicits._
 
 import cats._
 import cats.free.Free
+import cats.data._
+import cats.std.future._
+import cats.std.option._
+
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.{ Future, Await }
+import scala.concurrent.duration._
 
 object Main extends scala.App {
   import Algebra._
   import models._
 
-  def app = for {
-    u <- user.Get("123")
-    c = Consultation("123", "A consultation")
-    _ <- consultation.Get(c._id)
-  } yield ()
+  val app = for {
+    c <- consultation.Create(Consultation("123", "A consultation"))
+    d <- consultation.Get(c._id)
+    _ <- consultation.Get("124") // this fails...
+    _ <- consultation.Get("125") // ...so this won't be executed (monadic fail-fast semantic)
+  } yield d
 
-  def interpreters = ConsultationInterpreter or UserInterpreter
-  app.foldMap(interpreters)
+  val unsafeInterpreters = ConsultationInterpreter or UserInterpreter
+  val safeInterpreters = OptionConsultationInterpreter or OptionUserInterpreter
+  val asyncInterpreters = AsyncConsultationInterpreter or AsyncUserInterpreter
+
+  // app.foldMap(unsafeInterpreters)
+
+  app.foldMap(safeInterpreters)
+
+  // val f = app.foldMap(asyncInterpreters)
+  // // wait for the future to run (otherwise the main thread terminates)
+  // Await.ready(f, 2.seconds)
 }
 
 trait Algebra extends ConsultationAlgebra with UserAlgebra {
@@ -33,10 +50,10 @@ object Algebra extends Algebra
 trait ConsultationAlgebra {
   import models.{ ConsultationId, Consultation }
 
-  sealed trait ConsultationOp[A]
+  sealed trait ConsultationOp[+Next]
   object consultation {
-    case class Create(c: Consultation) extends ConsultationOp[Unit]
-    case class Get(s: ConsultationId) extends ConsultationOp[Option[Consultation]]
+    case class Create(c: Consultation) extends ConsultationOp[Consultation]
+    case class Get(s: ConsultationId) extends ConsultationOp[Consultation]
   }
 
 }
@@ -45,9 +62,9 @@ object ConsultationAlgebra extends ConsultationAlgebra
 trait UserAlgebra {
   import models.{ UserId, User }
 
-  sealed trait UserOp[A]
+  sealed trait UserOp[+Next]
   object user {
-    case class Get(id: UserId) extends UserOp[Option[User]]
+    case class Get(id: UserId) extends UserOp[User]
   }
 
 }
@@ -70,6 +87,7 @@ object ConsultationInterpreter extends (Algebra.ConsultationOp ~> Id) {
         // storing it in the "db"
         c = Some(a)
         println(s"Creating consultation $a")
+        c.get
       case consultation.Get(id) =>
         println(s"Getting consultation with id: $id")
         val r = c.filter(_._id == id)
@@ -77,7 +95,7 @@ object ConsultationInterpreter extends (Algebra.ConsultationOp ~> Id) {
           case Some(r) => println(s"Found consultation $r")
           case None => println("Consultation not found")
         }
-        r
+        r.get
     }
 }
 
@@ -96,6 +114,95 @@ object UserInterpreter extends (Algebra.UserOp ~> Id) {
           case Some(r) => println(s"Found user $r")
           case None => println("User not found")
         }
+        r.get
+    }
+}
+
+object OptionUserInterpreter extends (Algebra.UserOp ~> Option) {
+  import Algebra._
+  import models._
+
+  // the "db"
+  var u: Option[User] = Some(User(_id = "123", name = "Gabro"))
+
+  def apply[A](in: UserOp[A]): Option[A] =
+    in match {
+      case user.Get(id) =>
+        val r = u.filter(_._id == id)
+        r match {
+          case Some(r) => println(s"Found user $r")
+          case None => println("User not found")
+        }
         r
+    }
+}
+
+object OptionConsultationInterpreter extends (Algebra.ConsultationOp ~> Option) {
+  import Algebra._
+  import models._
+
+  // the "db"
+  var c: Option[Consultation] = None
+
+  def apply[A](in: ConsultationOp[A]): Option[A] =
+    in match {
+      case consultation.Create(a) =>
+        // storing it in the "db"
+        c = Some(a)
+        println(s"Creating consultation $a")
+        c
+      case consultation.Get(id) =>
+        println(s"Getting consultation with id: $id")
+        val r = c.filter(_._id == id)
+        r match {
+          case Some(r) => println(s"Found consultation $r")
+          case None => println("Consultation not found")
+        }
+        r
+    }
+}
+
+object AsyncUserInterpreter extends (Algebra.UserOp ~> Future) {
+  import Algebra._
+  import models._
+
+  // the "db"
+  var u: Option[User] = Some(User(_id = "123", name = "Gabro"))
+
+  def apply[A](in: UserOp[A]): Future[A] =
+    in match {
+      case user.Get(id) =>
+        val r = u.filter(_._id == id)
+        r match {
+          case Some(r) => println(s"Found user $r")
+          case None => println("User not found")
+        }
+        Future(r.get)
+    }
+}
+
+object AsyncConsultationInterpreter extends (Algebra.ConsultationOp ~> Future) {
+  import Algebra._
+  import models._
+
+  // the "db"
+  var c: Option[Consultation] = None
+
+  def apply[A](in: ConsultationOp[A]): Future[A] =
+    in match {
+      case consultation.Create(a) =>
+        // storing it in the "db"
+        c = Some(a)
+        println(s"Creating consultation $a")
+        Future(c.get)
+
+      case consultation.Get(id) =>
+        println(s"Getting consultation with id: $id")
+        val r = c.filter(_._id == id)
+        r match {
+          case Some(r) => println(s"Found consultation $r")
+          case None => println("Consultation not found")
+        }
+        Future(r.get)
     }
 }

@@ -7,7 +7,7 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "org.spire-math" %% "cats"      % "0.2.0"
+  "org.spire-math" %% "cats" % "0.2.0"
 )
 
 seq(Revolver.settings: _*)

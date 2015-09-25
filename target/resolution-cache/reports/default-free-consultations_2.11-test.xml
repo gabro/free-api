@@ -7,8 +7,69 @@
 		revision="0.1-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150924162530"/>
+		date="20150925125102"/>
 	<dependencies>
+		<module organisation="org.scalaz" name="scalaz-concurrent_2.11">
+			<revision name="7.1.4" status="release" pubdate="20150925125058" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2949" time="0" location="/Users/gabro/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/ivy-7.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.pom"/>
+				<caller organisation="default" name="free-consultations_2.11" conf="test, compile, runtime" rev="7.1.4" rev-constraint-default="7.1.4" rev-constraint-dynamic="7.1.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalaz-concurrent_2.11" type="bundle" ext="jar" status="successful" details="" size="396861" time="435" location="/Users/gabro/.ivy2/cache/org.scalaz/scalaz-concurrent_2.11/bundles/scalaz-concurrent_2.11-7.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.11/7.1.4/scalaz-concurrent_2.11-7.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-effect_2.11">
+			<revision name="7.1.4" status="release" pubdate="20150925085824" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2790" time="0" location="/Users/gabro/.ivy2/cache/org.scalaz/scalaz-effect_2.11/ivy-7.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.11" conf="default, compile, runtime, master" rev="7.1.4" rev-constraint-default="7.1.4" rev-constraint-dynamic="7.1.4" callerrev="7.1.4"/>
+				<artifacts>
+					<artifact name="scalaz-effect_2.11" type="bundle" ext="jar" status="successful" details="" size="469163" time="499" location="/Users/gabro/.ivy2/cache/org.scalaz/scalaz-effect_2.11/bundles/scalaz-effect_2.11-7.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.11/7.1.4/scalaz-effect_2.11-7.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.11">
+			<revision name="7.1.4" status="release" pubdate="20150925124813" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="BSD-style" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/Users/gabro/.ivy2/cache/org.scalaz/scalaz-core_2.11/ivy-7.1.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scalaz/scalaz-core_2.11/7.1.4/scalaz-core_2.11-7.1.4.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.11" conf="compile, runtime" rev="7.1.4" rev-constraint-default="7.1.4" rev-constraint-dynamic="7.1.4" callerrev="7.1.4"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.11" conf="default, compile, runtime, master" rev="7.1.4" rev-constraint-default="7.1.4" rev-constraint-dynamic="7.1.4" callerrev="7.1.4"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.11" type="bundle" ext="jar" status="no" details="" size="10739329" time="0" location="/Users/gabro/.ivy2/cache/org.scalaz/scalaz-core_2.11/bundles/scalaz-core_2.11-7.1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.1.4/scalaz-core_2.11-7.1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430155302" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3184" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="7.1.4"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="647891" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430160747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3012" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.11" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="7.1.4"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="no" details="" size="423753" time="0" location="/Users/gabro/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.spire-math" name="cats_2.11">
 			<revision name="0.2.0" status="release" pubdate="20150924114914" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/non/cats" extra-info.apiURL="https://non.github.io/cats/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
@@ -246,11 +307,16 @@
 				<caller organisation="org.typelevel" name="machinist_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.4.1"/>
 				<caller organisation="org.spire-math" name="cats-macros_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
 				<caller organisation="org.spire-math" name="algebra_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.3.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
 				<caller organisation="default" name="free-consultations_2.11" conf="test, compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1-SNAPSHOT"/>
 				<caller organisation="org.spire-math" name="cats-laws_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<caller organisation="org.scalaz" name="scalaz-core_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="7.1.4"/>
 				<caller organisation="org.spire-math" name="cats-free_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
 				<caller organisation="org.spire-math" name="cats-core_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
+				<caller organisation="org.scalaz" name="scalaz-effect_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="7.1.4"/>
 				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="2.11.7"/>
+				<caller organisation="org.scalaz" name="scalaz-concurrent_2.11" conf="default, compile, runtime, master" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="7.1.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0.4"/>
 				<caller organisation="com.github.mpilquist" name="simulacrum_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.4.0"/>
 				<caller organisation="org.typelevel" name="discipline_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.4"/>
 				<caller organisation="org.spire-math" name="cats-state_2.11" conf="compile, runtime" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.2.0"/>
@@ -261,9 +327,16 @@
 					</artifact>
 				</artifacts>
 			</revision>
-			<revision name="2.11.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+			<revision name="2.11.4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.11.7"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.4" rev-constraint-default="2.11.4" rev-constraint-dynamic="2.11.4" callerrev="1.0.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.11.6" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="master(*), compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
 				<evicted-by rev="2.11.7"/>
 				<caller organisation="org.scalacheck" name="scalacheck_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.12.4"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="compile, runtime" rev="2.11.6" rev-constraint-default="2.11.6" rev-constraint-dynamic="2.11.6" callerrev="1.0.4"/>
 				<artifacts>
 				</artifacts>
 			</revision>

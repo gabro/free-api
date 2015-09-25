@@ -2,33 +2,14 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/Users/gabro/buildo/experiments/free-consultations/src/main/scala/project/Main.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mInvalidated products: Set()[0m
 [0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/gabro/buildo/experiments/free-consultations/src/main/scala/project/Main.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
 [0m[[0mdebug[0m] [0m	binary dep: Set()[0m
 [0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/gabro/buildo/experiments/free-consultations/src/main/scala/project/Main.scala)[0m
-[0m[[0minfo[0m] [0mCompiling 1 Scala source to /Users/gabro/buildo/experiments/free-consultations/target/scala-2.11/classes...[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.7[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 3a8790fd, interfacing (CompilerInterface) with Scala compiler version 2.11.7[0m
-[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
-[0m[[0mdebug[0m] [0m	-feature[0m
-[0m[[0mdebug[0m] [0m	-language:higherKinds[0m
-[0m[[0mdebug[0m] [0m	-language:implicitConversions[0m
-[0m[[0mdebug[0m] [0m	-bootclasspath[0m
-[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes:/Users/gabro/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar[0m
-[0m[[0mdebug[0m] [0m	-classpath[0m
-[0m[[0mdebug[0m] [0m	/Users/gabro/buildo/experiments/free-consultations/target/scala-2.11/classes:/Users/gabro/.ivy2/cache/org.spire-math/cats_2.11/jars/cats_2.11-0.2.0.jar:/Users/gabro/.ivy2/cache/org.spire-math/cats-macros_2.11/jars/cats-macros_2.11-0.2.0.jar:/Users/gabro/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/jars/simulacrum_2.11-0.4.0.jar:/Users/gabro/.ivy2/cache/org.spire-math/algebra_2.11/jars/algebra_2.11-0.3.1.jar:/Users/gabro/.ivy2/cache/org.spire-math/algebra-std_2.11/jars/algebra-std_2.11-0.3.1.jar:/Users/gabro/.ivy2/cache/org.typelevel/machinist_2.11/jars/machinist_2.11-0.4.1.jar:/Users/gabro/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.7.jar:/Users/gabro/.ivy2/cache/org.spire-math/cats-core_2.11/jars/cats-core_2.11-0.2.0.jar:/Users/gabro/.ivy2/cache/org.spire-math/cats-laws_2.11/jars/cats-laws_2.11-0.2.0.jar:/Users/gabro/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.4.jar:/Users/gabro/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar:/Users/gabro/.ivy2/cache/org.typelevel/discipline_2.11/jars/discipline_2.11-0.4.jar:/Users/gabro/.ivy2/cache/org.spire-math/algebra-laws_2.11/jars/algebra-laws_2.11-0.3.1.jar:/Users/gabro/.ivy2/cache/org.spire-math/algebra-macros_2.11/jars/algebra-macros_2.11-0.3.1.jar:/Users/gabro/.ivy2/cache/org.spire-math/cats-free_2.11/jars/cats-free_2.11-0.2.0.jar:/Users/gabro/.ivy2/cache/org.spire-math/cats-state_2.11/jars/cats-state_2.11-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 1.676965441 s[0m
-[0m[[0mdebug[0m] [0mNew invalidations:[0m
-[0m[[0mdebug[0m] [0m	Set()[0m
-[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
-[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0mdebug[0m] [0m	Set()[0m
-[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
