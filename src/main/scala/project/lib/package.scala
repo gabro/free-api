@@ -1,4 +1,5 @@
 package project.lib
 
 object Implicits extends
-  ComposableInterpreterImplicits
+  ComposableInterpreterImplicits with
+  CatsMonadicCtrlModule

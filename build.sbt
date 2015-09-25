@@ -6,8 +6,15 @@ scalacOptions ++= Seq(
   "-language:implicitConversions"
 )
 
+resolvers ++= Seq(
+  "buildo" at "https://github.com/buildo/mvn/raw/master/releases",
+  "spray repo" at "http://repo.spray.io/"
+)
+
 libraryDependencies ++= Seq(
-  "org.spire-math" %% "cats" % "0.2.0"
+  "org.spire-math" %% "cats" % "0.2.0",
+  "io.buildo" %% "nozzle" % "0.5.0",
+  "io.spray" %% "spray-json" % "1.3.1"
 )
 
 seq(Revolver.settings: _*)
