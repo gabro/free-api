@@ -4,7 +4,7 @@
 		module="free-consultations-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150924114820"
+		publication="20150926162805"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

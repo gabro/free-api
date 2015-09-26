@@ -5,8 +5,9 @@ import shapeless._
 import cats.~>
 
 class ComposableInterpreter[F[_], H[_]](f: F ~> H) {
-  def or[G[_]](g: G ~> H): ({ type x[A] = F[A] :+: G[A] :+: CNil })#x ~> H = {
-    new (({ type x[A] = F[A] :+: G[A] :+: CNil })#x ~> H) {
+
+  def or[G[_]](g: G ~> H): λ[A => F[A] :+: G[A] :+: CNil] ~> H = {
+    new (λ[A => F[A] :+: G[A] :+: CNil] ~> H) {
       def apply[A](fa: F[A] :+: G[A] :+: CNil): H[A] =
         (fa.select[F[A]], fa.select[G[A]]) match {
           case (Some(ff), None) => f(ff)

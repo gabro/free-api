@@ -19,3 +19,5 @@ libraryDependencies ++= Seq(
 )
 
 seq(Revolver.settings: _*)
+
+addCompilerPlugin("org.spire-math" %% "kind-projector" % "0.6.3")

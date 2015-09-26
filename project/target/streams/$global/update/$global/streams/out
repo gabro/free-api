@@ -26,7 +26,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#free-consultations-build;0.1-SNAPSHOT [provided][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#free-consultations-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.5 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d7e945f[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6089c06e[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.5 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.5] org.scala-lang#scala-library;2.10.5[0m
@@ -2303,7 +2303,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1295ms :: artifacts dl 38ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 349ms :: artifacts dl 11ms[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations-build;0.1-SNAPSHOT compile produced in /Users/gabro/buildo/experiments/free-consultations/project/target/resolution-cache/reports/default-free-consultations-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations-build;0.1-SNAPSHOT runtime produced in /Users/gabro/buildo/experiments/free-consultations/project/target/resolution-cache/reports/default-free-consultations-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations-build;0.1-SNAPSHOT test produced in /Users/gabro/buildo/experiments/free-consultations/project/target/resolution-cache/reports/default-free-consultations-build-test.xml[0m
@@ -2317,5 +2317,5 @@
 [0m[[0mdebug[0m] [0m	report for default#free-consultations-build;0.1-SNAPSHOT docs produced in /Users/gabro/buildo/experiments/free-consultations/project/target/resolution-cache/reports/default-free-consultations-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations-build;0.1-SNAPSHOT pom produced in /Users/gabro/buildo/experiments/free-consultations/project/target/resolution-cache/reports/default-free-consultations-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#free-consultations-build;0.1-SNAPSHOT scala-tool produced in /Users/gabro/buildo/experiments/free-consultations/project/target/resolution-cache/reports/default-free-consultations-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1295ms resolve - 38ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (349ms resolve - 11ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
