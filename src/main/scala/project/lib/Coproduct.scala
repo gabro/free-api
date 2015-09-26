@@ -18,3 +18,4 @@ trait ComposableInterpreterImplicits {
   implicit def apply[F[_], H[_]](f: F ~> H) =
       new ComposableInterpreter(f)
 }
+object ComposableInterpreterImplicits extends ComposableInterpreterImplicits

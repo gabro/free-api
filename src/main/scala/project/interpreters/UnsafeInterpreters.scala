@@ -11,7 +11,7 @@ object ConsultationInterpreter extends (AppAlgebra.ConsultationOp ~> Id) {
 
   def apply[A](in: ConsultationOp[A]): Id[A] =
     in match {
-      case consultation.Create(a) =>
+      case consultation.Create(a, _) =>
         // storing it in the "db"
         c = Some(a)
         println(s"Creating consultation $a")

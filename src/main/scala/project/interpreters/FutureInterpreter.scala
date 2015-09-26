@@ -33,7 +33,7 @@ object AsyncConsultationInterpreter extends (AppAlgebra.ConsultationOp ~> Future
 
   def apply[A](in: ConsultationOp[A]): Future[A] =
     in match {
-      case consultation.Create(a) =>
+      case consultation.Create(a, _) =>
         // storing it in the "db"
         c = Some(a)
         println(s"Creating consultation $a")
