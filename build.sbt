@@ -14,7 +14,8 @@ resolvers ++= Seq(
 libraryDependencies ++= Seq(
   "org.spire-math" %% "cats" % "0.2.0",
   "io.buildo" %% "nozzle" % "0.5.0",
-  "io.spray" %% "spray-json" % "1.3.1"
+  "io.spray" %% "spray-json" % "1.3.1",
+  "com.chuusai" %% "shapeless" % "2.2.5"
 )
 
 seq(Revolver.settings: _*)

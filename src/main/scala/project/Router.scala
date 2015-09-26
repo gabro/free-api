@@ -25,7 +25,9 @@ trait RouterModule extends lib.FreeMarshallerModule
           complete(consultationController.getAll)
         } ~
         (post & entity(as[Consultation])) { c =>
-          val u = User("123", "Gabriele Petronella", UserRole.Patient)
+          val doctor = User("24", "Dr. Luca Cioria", UserRole.Doctor)
+          val patient = User("42", "Gabriele Petronella", UserRole.Patient)
+          val u = List(doctor, patient)(scala.util.Random.nextInt(2))
           complete(consultationController.create(c, u))
         }
       }

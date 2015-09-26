@@ -51,3 +51,8 @@ reload
 ~reStart
 reload
 ~reStart
+reload
+~reStart
+~reCompile
+~compile
+~reStart
