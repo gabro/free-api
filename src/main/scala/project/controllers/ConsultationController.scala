@@ -16,6 +16,7 @@ trait ConsultationControllerModule extends io.buildo.base.MonadicCtrlModule {
 
     def create(c: Consultation, u: User) = for {
       _ <- user.ValidateRole(u, UserRole.Doctor)
+      u <- user.EnsureActive(u)
       c <- consultation.Create(c, u)
     } yield c
   }

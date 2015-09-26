@@ -7,6 +7,7 @@ trait UserAlgebra {
   object user {
     case class Get(id: UserId) extends UserOp[User]
     case class ValidateRole(u: User, r: UserRole) extends UserOp[User]
+    case class EnsureActive(u: User) extends UserOp[User]
   }
 
 }

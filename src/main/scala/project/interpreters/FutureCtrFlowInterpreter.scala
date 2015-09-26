@@ -84,6 +84,9 @@ trait CtrlFlowInterpreterModule extends io.buildo.base.MonadicCtrlModule {
            } else {
              EitherT.left(Future.successful(CtrlError.InvalidCredentials))
            }
+
+        case user.EnsureActive(u) =>
+          Monad[FutureCtrlFlow].pure(u.copy(active = true))
       }
     }
   }

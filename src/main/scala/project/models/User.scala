@@ -6,4 +6,9 @@ object UserRole {
   case object Doctor extends UserRole
 }
 
-case class User(_id: UserId, name: String, role: UserRole = UserRole.Patient)
+case class User(
+  _id: UserId,
+  name: String,
+  role: UserRole = UserRole.Patient,
+  active: Boolean = false
+)
