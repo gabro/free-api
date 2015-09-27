@@ -1,6 +1,6 @@
 package project
 
-trait ConsultationControllerModule extends io.buildo.base.MonadicCtrlModule {
+trait ConsultationControllerModule {
   object consultationController {
     import AppAlgebra._
     import models._
